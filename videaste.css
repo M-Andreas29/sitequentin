@@ -16,10 +16,6 @@ body{
 }
 
 p{
-	opacity: .9;
-}
-
-p{
 	color: #FAFAFA;
 }
 
@@ -54,7 +50,7 @@ p{
 	top: -1.5em;
 	font-family: impact;
 	z-index: -1;
-	background: linear-gradient(to right, white, #D6D6D6, #006565, blue, #5842B8); /*pour mettre le texte aux couleurs d'insta - cf fiche - */
+	background: linear-gradient(to right, #D6D6D6, white, #006565, #5842B8, blue); /*pour mettre le texte aux couleurs d'insta - cf fiche - */
 	-webkit-background-clip: text; 
 	-webkit-text-fill-color: transparent;
 }
@@ -108,7 +104,7 @@ p{
 }
 	
 .soustitre{
-	color: #BDBDBD;
+	color: #FAFAFA;
 	opacity: .8;
 	font-weight: lighter;
 	padding: 2px; 
@@ -808,7 +804,7 @@ footer a:hover{
 	font-size: 140%;
 	opacity: .9;
 	font-family: impact;
-	background: linear-gradient(to right, #5842B8, grey, white, white, #006565);
+	background: linear-gradient(to right, #5842B8, grey, white, #BEBEBE, #006565);
 	-webkit-background-clip: text; 
 	-webkit-text-fill-color: transparent;
 }
