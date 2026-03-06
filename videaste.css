@@ -32,14 +32,6 @@ p{
 	margin: 20px 20px;
 }
 
-@media screen and (max-width: 520px){
-	.logo{
-		width: 10%;
-		position: relative;
-		top:-.5em;
-	}
-}
-
 #titre{	
 	font-size: 310%;
 	text-transform: uppercase; 
@@ -50,10 +42,30 @@ p{
 	top: -1.5em;
 	font-family: impact;
 	z-index: -1;
-	background: linear-gradient(to right, #D6D6D6, white, #006565, #5842B8, blue); /*pour mettre le texte aux couleurs d'insta - cf fiche - */
+	background: linear-gradient(to left, blue, #0000C5, #C6C6FF, #00A8A8, #00A8A8); /*pour mettre le texte aux couleurs d'insta - cf fiche - */
 	-webkit-background-clip: text; 
 	-webkit-text-fill-color: transparent;
 }
+
+	
+.soustitre{
+	color: #FAFAFA;
+	opacity: .8;
+	font-weight: lighter;
+	padding: 2px; 
+	border-radius: 10px; 
+	text-align: center; 
+	margin: 0;
+	display: block; 
+	position: relative; 
+	top: -18px;
+	font-family: Lucida Handwriting, impact, palatino linotype, Georgia;
+	font-style: oblique;
+	font-size: 120%;
+	z-index: -2;
+}
+
+/*responsive titre et soustitre*/
 	
 @media screen and (max-width: 1092px){
 	#titre{ 
@@ -82,12 +94,22 @@ p{
 
 @media screen and (max-width: 640px){
 	#titre{
-		font-size: 160%;
-		top:-3em;
+		font-size: 200%;
+		top: -2.5em;
 	}
 }
 
 @media screen and (max-width: 500px){
+	#titre{
+		font-size: 160%;
+	}
+	
+	.soustitre{
+		font-size: 40%;
+	}
+}
+
+@media screen and (max-width: 480px){
 	#titre{
 		font-size: 140%;
 	}
@@ -101,23 +123,6 @@ p{
 	#titre{
 		font-size: 120%;
 	}
-}
-	
-.soustitre{
-	color: #FAFAFA;
-	opacity: .8;
-	font-weight: lighter;
-	padding: 2px; 
-	border-radius: 10px; 
-	text-align: center; 
-	margin: 0;
-	display: block; 
-	position: relative; 
-	top: -18px;
-	font-family: Lucida Handwriting, impact, palatino linotype, Georgia;
-	font-style: oblique;
-	font-size: 120%;
-	z-index: -2;
 }
 
 @media screen and (max-width: 1092px){
@@ -142,17 +147,19 @@ p{
 
 @media screen and (max-width: 640px){	
 	.soustitre{
-		top: -5em;
-		font-size: 65%;
+		top: -4.5em;
+		font-size: 68%;
 	}
 }
 
 @media screen and (max-width: 480px){
 	.soustitre{
-		top: -5.5em;
+		top: -5.2em;
 		font-size: 55%;
 	}
 }
+
+/*reseaux*/
 
 .reseaux{
 	display: inline-block;
@@ -167,41 +174,16 @@ p{
 	width: 40%;
 }
 
-@media screen and (max-width: 1092px){	
-	.reseaux{ 
-		right: 0%;
-		top: -6.5em;
-	}
-	
-	.reseaux img{
-		width: 35%;
-	}
-	
-	.menu{
-		top: -2em;
-	}
-}
-
 .reseaux img{
 	border-radius: 50px;
 }
 
-/*debut de la barre de menu*/
+/*barre de menu*/
 
 a{
 	font-size: 85%; 
 	text-transform: uppercase;
 } 
-/*mise en forme générale des liens*/
-
-
-a{
-	color: #4DA1A1;
-}
-
-a:hover{
-	color: #00ADAD;
-}
 
 .menu{ 
 	width: 60%;
@@ -264,6 +246,23 @@ a:hover{
 
 .sousonglet{
 	margin: 6px 0;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1092px){	
+	.reseaux{ 
+		right: 0%;
+		top: -6.5em;
+	}
+	
+	.reseaux img{
+		width: 35%;
+	}
+	
+	.menu{
+		top: -2em;
+	}
 }
 
 @media screen and (max-width: 1092px){
@@ -359,18 +358,30 @@ a:hover{
 	}
 	
 	.reseaux{
-		left: 8%;
+		left: 7%;
+		top: -5.8em;
 	}
 }
 
 @media screen and (max-width: 580px){
+	.logo{
+		width: 7%;
+	}
+	
 	.reseaux{
-		left: 11%;
-		top: -6.5em;
+		left: 8%;
 	}
 	
 	.reseaux img{
 		width: 25%;
+	}
+}
+
+@media screen and (max-width: 520px){
+	.logo{
+		width: 6%;
+		position: relative;
+		top:-.5em;
 	}
 }
 	
@@ -383,10 +394,20 @@ a:hover{
 		font-size: 76%;
 	}
 }
+
+@media screen and (max-width: 440px){
+	.menu a{
+		font-size: 85%; 
+	}
+	
+	.suronglet{
+		font-size: 70%;
+	}
+}
 	
 /*fin du menu*/
 
-/*commun à toutes les pages*/
+/*commun à toutes les pages titre des sections et liens*/
 
 .titresection{ 
 	font-family: impact;
@@ -396,7 +417,39 @@ a:hover{
 	text-transform: uppercase;
 }
 
-.bouton{
+/*mise en forme générale des liens*/
+
+
+a{
+	color: #4DA1A1;
+}
+
+a:hover{
+	color: #00ADAD;
+}
+
+
+@media screen and (max-width: 700px){
+	.titresection{ 
+		font-size: 125%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.titresection{ 
+		font-size: 100%;
+	}
+}
+
+/*fin elements communs*/
+
+
+
+/*PAGE 1*/
+
+/*BOUTONS PAGE 1*/
+
+.bouton1{
 	background: black; 
 	color: white;  
 	text-transform: uppercase;
@@ -404,25 +457,39 @@ a:hover{
 	padding: 8px; 
 	border-radius: 10px;
 	display: inline-block; 
-	width: 140px; 
-	margin: 0 45%;
 	text-align: center;
 	text-decoration: none; 
 	font-weight: bold;
+	margin: 0 45%;
+	width: 25%;
+	position: relative; 
+	left: -5em;
 }
 
-.bouton:hover, .bouton2:hover{
-	background: linear-gradient(to right, #5E5E5E, grey, #DEDEDE);
+@media screen and (max-width: 850px){
+	.bouton1{
+		width: 30%; 
+	}
+}
+
+@media screen and (max-width: 700px){
+	.bouton1{
+		left: -2.5em; 
+	}
+}
+
+.bouton1:hover, .bouton2:hover{
+	background: linear-gradient(to right, #565656, #5E5E5E, grey, #DEDEDE);
 	color: black; 
 	font-weight: bolder;
 }
 
-/*fin elements communs*/
-
-/*page1*/
-
 
 /*section presentation*/
+
+.presentation{
+	width: 100%; 
+}
 
 .portrait{
 	float: left;
@@ -433,12 +500,6 @@ a:hover{
 	border-radius:10%;
 }
 
-@media screen and (max-width: 871px){
-	.portrait{
-		top: 2em;
-	}
-}
-
 .description{
 	display: inline-block;
 	float: right;
@@ -447,6 +508,15 @@ a:hover{
 	margin-right: 5%;
 	font-size: 105%;
 	height: 500px; 
+}
+
+
+/*responsive portrait et description*/
+
+@media screen and (max-width: 871px){ /*baisser un peu l'image quand le texte devient plus petit*/
+	.portrait{
+		top: 2em;
+	}
 }
 
 @media screen and (min-width: 1616px){
@@ -484,21 +554,17 @@ a:hover{
 		position: relative; 
 		top: -2em;
 	}
-	
-	.titresection{ 
-		font-size: 135%;
-	}
 }
 	
 @media screen and (max-width: 700px){
 	.portrait{ 
 		display: block;
-		width: 40%;
-		margin-left: 30%;
+		width: 50%;
+		margin-left: 25%;
 	}
 	
 	.titresection{ 
-		font-size: 115%;
+		font-size: 135%;
 	}
 	
 	.description{
@@ -507,30 +573,15 @@ a:hover{
 	}
 }
 
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 500px){
 	.titresection{ 
-		font-size: 125%;
+			font-size: 115%;
 	}
 }
 
-@media screen and (max-width: 480px){
-	.titresection{ 
-		font-size: 100%;
-	}
-}
 
 /*section video*/
 
-/*a supprimer video :
-.video{
-	width: 560px;
-	height: 315px;
-	background-color: black;
-	margin: 1% 1% 1% 5%; 
-	float: left;
-}
-*/
 
 .textevideo{ 
 	display: inline-block;
@@ -590,7 +641,7 @@ a:hover{
 /*bouton YOUTUBE*/
 
 .boutonyt{
-	background: linear-gradient(to right, #BDBDBD, white, #DB9595); 
+	background: linear-gradient(to right, #BDBDBD, #FAFAFA, #DB9595); 
 	color: #F20000; 
 	border-radius: 10px;
 	padding: 6px;
@@ -601,7 +652,7 @@ a:hover{
 
 .boutonyt:hover{
 	opacity: .9;
-	color: white;
+	color: #F0F0F0;
 	background: #E61717;
 	border: 1px outset grey;
 }
@@ -621,7 +672,7 @@ a:hover{
 
 .bouton2{
 	background: black; 
-	color: white;  
+	color: #F0F0F0;  
 	text-transform: uppercase;
 	opacity: .9;
 	padding: 8px; 
@@ -723,7 +774,7 @@ footer a:hover{
 
 .numero{
 	background-color: #075E54;
-	color: white;
+	color: #F0F0F0;
 	font-weight: bold;
 	border-radius: 5px;
 	padding: 2px 5px;
@@ -804,7 +855,7 @@ footer a:hover{
 	font-size: 140%;
 	opacity: .9;
 	font-family: impact;
-	background: linear-gradient(to right, #5842B8, grey, white, #BEBEBE, #006565);
+	background: linear-gradient(to right, #97FFFF, #F0F0F0, #7171FF);
 	-webkit-background-clip: text; 
 	-webkit-text-fill-color: transparent;
 }
@@ -818,5 +869,11 @@ footer a:hover{
 @media screen and (max-width: 550px){
 	.nombas{
 		font-size: 110%;
+	}
+}
+
+@media screen and (max-width: 440px){
+	.nombas{
+		font-size: 90%;
 	}
 }
