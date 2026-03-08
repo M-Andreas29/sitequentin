@@ -404,7 +404,17 @@ a{
 		font-size: 70%;
 	}
 }
+
+@media screen and (max-width: 410px){
+	.menu a{
+		font-size: 75%; 
+	}
 	
+	.suronglet{
+		font-size: 60%;
+	}
+}
+
 /*fin du menu*/
 
 /*commun à toutes les pages titre des sections et liens*/
@@ -778,6 +788,7 @@ footer a:hover{
 	font-weight: bold;
 	border-radius: 5px;
 	padding: 2px 5px;
+	margin-left: 20%;
 }
 
 .adressemail{
