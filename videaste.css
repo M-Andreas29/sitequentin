@@ -665,7 +665,7 @@ a:hover{
 }
 
 .photo{
-	width: 20%; /*dur a mettre en pourcent car les photos ont pas la meme taille*/
+	width: 22.5%; /*dur a mettre en pourcent car les photos ont pas la meme taille*/
 	border-radius: 20px;
 	padding: 5px; 
 }
