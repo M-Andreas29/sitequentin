@@ -341,7 +341,6 @@ a{
 @media screen and (max-width: 640px){
 	.menu{
 		margin-left: 0%;
-		width: 80%;	
 		top: -4em;
 	}
 	
@@ -392,6 +391,20 @@ a{
 	
 	.suronglet{
 		font-size: 76%;
+	}
+}
+
+@media screen and (max-width: 470px){
+	.menu{
+		width: 75%;
+	}
+	
+	.menu a{
+		font-size: 82%; 
+	}
+	
+	.suronglet{
+		font-size: 67%;
 	}
 }
 
@@ -868,4 +881,3 @@ footer a:hover{
 		font-size: 90%;
 	}
 }
-
