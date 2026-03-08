@@ -395,26 +395,6 @@ a{
 	}
 }
 
-@media screen and (max-width: 440px){
-	.menu a{
-		font-size: 85%; 
-	}
-	
-	.suronglet{
-		font-size: 70%;
-	}
-}
-
-@media screen and (max-width: 410px){
-	.menu a{
-		font-size: 75%; 
-	}
-	
-	.suronglet{
-		font-size: 60%;
-	}
-}
-
 /*fin du menu*/
 
 /*commun à toutes les pages titre des sections et liens*/
@@ -888,3 +868,4 @@ footer a:hover{
 		font-size: 90%;
 	}
 }
+
