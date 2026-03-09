@@ -830,7 +830,6 @@ footer a:hover{
 	font-weight: bold;
 	border-radius: 5px;
 	padding: 2px 5px;
-	margin-left: 20%;
 }
 
 .adressemail{
@@ -890,6 +889,7 @@ footer a:hover{
 		margin: 0 auto;
 		top:-2em;
 		margin-bottom: 2em;
+		text-align: center;
 	}
 	
 	.bandeau{
