@@ -360,7 +360,7 @@ a{
 	
 	.reseaux{
 		left: 7%;
-		top: -5.8em;
+		top: -6.4em;
 	}
 }
 
@@ -394,6 +394,10 @@ a{
 	.suronglet{
 		font-size: 76%;
 	}
+	
+	.reseaux{
+		top: -5.8em;
+	}
 }
 
 @media screen and (max-width: 490px){
@@ -412,10 +416,6 @@ a{
 	.suronglet{
 		font-size: 69%;
 		font-weight: bold;
-	}
-	
-	.sousonglet{
-		font-size: 105%;
 	}
 	
 	.reseaux{
@@ -665,6 +665,11 @@ a:hover{
 		width: 80%;
 		text-align: justify;
 	}
+	
+	.boutonyt{
+		display: block; 
+		text-align: center; 
+	}
 }
 
 @media screen and (max-width: 980px){
@@ -699,7 +704,8 @@ a:hover{
 	border: 1px outset #E61717;
 	text-decoration: none;
 	font-weight: bold;
-	margin-left: 35%;
+	width: 140px;
+	margin: 0 auto;
 }
 
 .boutonyt:hover{
@@ -737,7 +743,14 @@ a:hover{
 	font-weight: bold;
 }
 
+/*page projet*/
 
+.texteprojet{
+	width: 80%;
+	margin: 0 10%;
+	text-align: center;
+}
+ 
 /*footer*/
 
 footer{
