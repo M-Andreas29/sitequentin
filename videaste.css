@@ -606,6 +606,13 @@ a:hover{
 
 /*section video*/
 
+.video{
+	width: 45%;
+	height: 315; 
+	position: relative;
+	left: 2%;
+	top: 1em;
+}	
 
 .textevideo{ 
 	display: inline-block;
@@ -661,6 +668,14 @@ a:hover{
 		margin-left: 15%;
 	}
 }
+
+@media screen and (max-width: 495px){
+	.video{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+
 
 /*bouton YOUTUBE*/
 
