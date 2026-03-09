@@ -342,6 +342,7 @@ a{
 	.menu{
 		margin-left: 0%;
 		top: -4em;
+		overflow-y: hidden; 
 	}
 	
 	.logo{
@@ -354,6 +355,7 @@ a{
 	
 	.suronglet{
 		font-size: 79%;
+		position: relative; 
 	}
 	
 	.reseaux{
@@ -410,6 +412,7 @@ a{
 	.suronglet{
 		font-size: 67%;
 		font-weight: bold;
+		top: 1px;
 	}
 	
 	.sousonglet{
