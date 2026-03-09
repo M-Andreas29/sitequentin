@@ -410,6 +410,8 @@ a{
 	.suronglet{
 		font-size: 65%;
 		font-weight: bold;
+		position: relative; 
+		top: 2px; 
 	}
 	
 	.reseaux{
@@ -895,5 +897,6 @@ footer a:hover{
 		font-size: 90%;
 	}
 }
+
 
 
