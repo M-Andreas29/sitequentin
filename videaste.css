@@ -296,7 +296,6 @@ a{
 
 @media screen and (max-width: 821px){
 	.menu{
-		width: 70%;
 		margin-left: 12%;
 	}
 	
@@ -394,17 +393,17 @@ a{
 	}
 }
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 490px){
 	.menu{
-		width: 75%;
+		width: 95%;
 	}
 	
 	.menu a{
-		font-size: 82%; 
+		font-size: 80%; 
 	}
 	
 	.suronglet{
-		font-size: 67%;
+		font-size: 65%;
 	}
 }
 
