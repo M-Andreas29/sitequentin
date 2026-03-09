@@ -399,7 +399,7 @@ a{
 		width: 95%;
 		position: relative;
 		left: -2em;
-		top: 1em;
+		top: .2em;
 	}
 	
 	.menu a{
@@ -414,7 +414,7 @@ a{
 	
 	.reseaux{
 		left: 20%; 
-		top: -4em; 
+		top: -4.3em; 
 	}
 	
 	.reseaux img{
