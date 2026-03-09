@@ -122,6 +122,7 @@ p{
 @media screen and (max-width: 450px){
 	#titre{
 		font-size: 120%;
+		top: -2.8em;
 	}
 }
 
@@ -154,8 +155,8 @@ p{
 
 @media screen and (max-width: 480px){
 	.soustitre{
-		top: -5.2em;
-		font-size: 55%;
+		top: -4.8em;
+		font-size: 60%;
 	}
 }
 
@@ -411,8 +412,8 @@ a{
 	}
 	
 	.reseaux{
-		left: 11%; 
-		top: -5em; 
+		left: 15%; 
+		top: -3em; 
 	}
 	
 	.reseaux img{
