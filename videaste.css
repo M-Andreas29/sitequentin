@@ -398,9 +398,9 @@ a{
 
 @media screen and (max-width: 490px){
 	.menu{
-		width: 100%;
+		width: 98%;
 		position: relative;
-		left: -2em;
+		left: -2.1em;
 		top: -3.6em;
 	}
 	
@@ -415,7 +415,7 @@ a{
 	}
 	
 	.sousonglet{
-		font-size: 102%;
+		font-size: 105%;
 	}
 	
 	.reseaux{
@@ -621,6 +621,7 @@ a:hover{
 	position: relative;
 	right: 5%;
 	height: 500px; 
+	overflow-y: hidden;
 }
 
 @media screen and (max-width: 1185px){
@@ -655,8 +656,8 @@ a:hover{
 	.textevideo{
 		display: block;
 		top: 1em;
-		right: 15%;
-		width: 65%;
+		right: 10%;
+		width: 80%;
 		text-align: center;
 	}
 }
