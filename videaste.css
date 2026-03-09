@@ -604,7 +604,8 @@ a:hover{
  
 @media screen and (max-width: 490px){
 	.portrait{ 
-			width: 70%;
+		width: 70%;
+		margin-left: 15%;
 	}
 }
 
@@ -943,3 +944,4 @@ footer a:hover{
 		font-size: 90%;
 	}
 }
+
