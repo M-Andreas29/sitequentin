@@ -399,7 +399,7 @@ a{
 		width: 95%;
 		position: relative;
 		left: -2em;
-		top: .2em;
+		top: -3em;
 	}
 	
 	.menu a{
@@ -895,3 +895,4 @@ footer a:hover{
 		font-size: 90%;
 	}
 }
+
