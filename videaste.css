@@ -420,7 +420,7 @@ a{
 	
 	.reseaux{
 		left: 20%; 
-		top: -4.3em; 
+		top: -4.4em; 
 	}
 	
 	.reseaux img{
@@ -598,7 +598,13 @@ a:hover{
 
 @media screen and (max-width: 500px){
 	.titresection{ 
-			font-size: 115%;
+		font-size: 115%;
+	}
+}
+ 
+@media screen and (max-width: 490px){
+	.portrait{ 
+			width: 70%;
 	}
 }
 
@@ -607,7 +613,6 @@ a:hover{
 
 .video{
 	width: 45%;
-	height: 315; 
 	position: relative;
 	left: 2%;
 	top: 1em;
@@ -642,7 +647,7 @@ a:hover{
 
 @media screen and (max-width: 520px){
 	.textevideo{
-		font-size: 82%;
+		font-size: 86%;
 	}
 }
 
@@ -658,7 +663,7 @@ a:hover{
 		top: 1em;
 		right: 10%;
 		width: 80%;
-		text-align: center;
+		text-align: justify;
 	}
 }
 
@@ -669,10 +674,17 @@ a:hover{
 	}
 }
 
-@media screen and (max-width: 495px){
+@media screen and (max-width: 825px){
 	.video{
-		width: 95%;
-		margin-left: 2.5%;
+		width: 80%;
+		margin-left: 9%;
+	}
+}
+
+@media screen and (max-width: 501px){
+	.video{
+		width: 90%;
+		margin-left: 4%;
 	}
 }
 
@@ -687,6 +699,7 @@ a:hover{
 	border: 1px outset #E61717;
 	text-decoration: none;
 	font-weight: bold;
+	margin-left: 35%;
 }
 
 .boutonyt:hover{
@@ -704,7 +717,7 @@ a:hover{
 }
 
 .photo{
-	width: 22.5%; /*dur a mettre en pourcent car les photos ont pas la meme taille*/
+	width: 28%; /*dur a mettre en pourcent car les photos ont pas la meme taille*/
 	border-radius: 20px;
 	padding: 5px; 
 }
