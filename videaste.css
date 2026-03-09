@@ -396,14 +396,17 @@ a{
 @media screen and (max-width: 490px){
 	.menu{
 		width: 95%;
+		margin-left: -2%;
 	}
 	
 	.menu a{
 		font-size: 80%; 
+		font-weight: bold;
 	}
 	
 	.suronglet{
 		font-size: 65%;
+		font-weight: bold;
 	}
 }
 
