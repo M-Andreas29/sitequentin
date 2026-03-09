@@ -396,7 +396,8 @@ a{
 @media screen and (max-width: 490px){
 	.menu{
 		width: 95%;
-		margin-left: -2%;
+		position: relative;
+		left: -5px;
 	}
 	
 	.menu a{
@@ -407,6 +408,15 @@ a{
 	.suronglet{
 		font-size: 65%;
 		font-weight: bold;
+	}
+	
+	.reseaux{
+		left: 11%; 
+		top: -5em; 
+	}
+	
+	.reseaux img{
+		width: 20%;
 	}
 }
 
