@@ -398,7 +398,8 @@ a{
 	.menu{
 		width: 95%;
 		position: relative;
-		left: -5px;
+		left: -2em;
+		top: 1em;
 	}
 	
 	.menu a{
@@ -412,8 +413,8 @@ a{
 	}
 	
 	.reseaux{
-		left: 15%; 
-		top: -3em; 
+		left: 20%; 
+		top: -4em; 
 	}
 	
 	.reseaux img{
