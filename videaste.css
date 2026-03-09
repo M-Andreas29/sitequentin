@@ -398,7 +398,7 @@ a{
 
 @media screen and (max-width: 490px){
 	.menu{
-		width: 95%;
+		width: 100%;
 		position: relative;
 		left: -2em;
 		top: -3.6em;
@@ -412,7 +412,6 @@ a{
 	.suronglet{
 		font-size: 69%;
 		font-weight: bold;
-		top: 1px;
 	}
 	
 	.sousonglet{
@@ -671,8 +670,8 @@ a:hover{
 
 @media screen and (max-width: 495px){
 	.video{
-		width: 90%;
-		margin-left: 5%;
+		width: 95%;
+		margin-left: 2.5%;
 	}
 }
 
